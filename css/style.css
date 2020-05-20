@@ -7,7 +7,7 @@ body {
 h1 {
   color: #66BFBF;
   margin: 50px auto 0 auto;
-  font-size: 5.625rem;
+  font-size: 7rem;
   font-family: 'Sacramento', cursive;
 }
 
@@ -15,25 +15,27 @@ h2 {
   color: #66BFBF;
   margin: 0 auto 0 auto;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
 }
 
 hr {
   width: 10%;
   border-color: #EAF6F6;
-  border-width: 0.5rem;
+  border-width: 1rem;
   border-style: dotted none none;
   margin: 100px auto;
 }
 
 p{
   color: #40514E;
+  font-size: 1.5rem;
 }
 
 
@@ -66,10 +68,14 @@ p{
   right: 80%;
 }
 
+.mountain{
+  width: 90%;
+}
+
 .profile-pic {
   border-radius: 50%;
-  height: 10%;
-  width: 10%;
+  height: 30%;
+  width: 30%;
   margin: 50px auto 25px auto;
 }
 
@@ -78,34 +84,34 @@ p{
 }
 
 .profile-text {
-  width: 30%;
+  width: 70%;
   margin: auto;
   line-height: 2;
 }
 
 .skill-pic01 {
   border-radius: 5%;
-  width: 30%;
+  width: 50%;
   float: left;
   margin-right: 30px;
 }
 
 .skill-pic02 {
   border-radius: 5%;
-  width: 30%;
+  width: 50%;
   float: right;
   margin-left: 30px;
 }
 
 .skill-row1 {
-  width: 50%;
+  width: 70%;
   margin: 100px auto 200px auto;
   text-align: left;
   line-height: 2;
 }
 
 .skill-row2 {
-  width: 50%;
+  width: 70%;
   margin: 100px auto 150px auto;
   text-align: left;
   line-height: 2;
@@ -118,7 +124,7 @@ p{
 
 .copyright{
   color: #EAF6F6;
-  font-size: 0.75rem;
+  font-size: 0.5rem;
   margin: 30px;
 }
 
@@ -197,7 +203,7 @@ box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
 }
 
 .context{
-  width: 40%;
+  width: 70%;
   margin: auto auto 50px auto;
   line-height: 2;
 }
