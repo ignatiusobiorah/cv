@@ -124,7 +124,7 @@ p{
 
 .copyright{
   color: #EAF6F6;
-  font-size: 0.5rem;
+  font-size: 1rem;
   margin: 30px;
 }
 
@@ -133,6 +133,7 @@ a{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   margin: 20PX;
+  font-size: 1.5rem;
 }
 
 a:hover{
@@ -184,7 +185,7 @@ a:hover{
 
 .button{
   color: rgb(230, 230, 230);
-font-size: 20px;
+font-size: 1.5rem;
 padding: 10px;
 text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
 -webkit-border-radius: 8px;
