@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  margin: 0 auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 10%;
+  border-color: #EAF6F6;
+  border-width: 0.5rem;
+  border-style: dotted none none;
+  margin: 100px auto;
+}
+
+p{
+  color: #40514E;
+}
+
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin-bottom: 50px;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 80%;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 10%;
+  width: 10%;
+  margin: 50px auto 25px auto;
+}
+
+.hello{
+  margin: auto auto 10px auto;
+}
+
+.profile-text {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+.skill-pic01 {
+  border-radius: 5%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-pic02 {
+  border-radius: 5%;
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-header {
+  text-align: center;
+  margin-bottom: 50px
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin: 30px;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20PX;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+/**
+
+.button {
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+   background-image: -moz-linear-gradient(top, #11999E, #11999E);
+   background-image: -ms-linear-gradient(top, #11999E, #11999E);
+   background-image: -o-linear-gradient(top, #11999E, #11999E);
+   background-image: linear-gradient(to bottom, #11999E, #11999E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 40px;
+   font-weight: 600;
+   padding: 15px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #11999E 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button:hover {
+   border: solid #66BFBF 1px;
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+**/
+
+.button{
+  color: rgb(230, 230, 230);
+font-size: 20px;
+padding: 10px;
+text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+background: rgb(17, 205, 212);
+background: -moz-linear-gradient(270deg, rgb(17, 205, 212) 30%, rgb(17, 153, 158) 70%);
+background: -webkit-linear-gradient(270deg, rgb(17, 205, 212) 30%, rgb(17, 153, 158) 70%);
+background: -o-linear-gradient(270deg, rgb(17, 205, 212) 30%, rgb(17, 153, 158) 70%);
+background: -ms-linear-gradient(270deg, rgb(17, 205, 212) 30%, rgb(17, 153, 158) 70%);
+background: linear-gradient(180deg, rgb(17, 205, 212) 30%, rgb(17, 153, 158) 70%);
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+
+}
+
+.context{
+  width: 40%;
+  margin: auto auto 50px auto;
+  line-height: 2;
+}
+
+.skills{
+  margin: auto auto 10px auto;
+}
